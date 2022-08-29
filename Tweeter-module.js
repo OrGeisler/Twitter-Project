@@ -1,7 +1,7 @@
 function Tweeter() {
   let data = [];
-  let postLastId = 2;
-  let commentLastId = 6;
+  let postLastId = 0;
+  let commentLastId = 0;
 
   getPosts = () => [...data];
 
